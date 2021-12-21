@@ -1,23 +1,32 @@
 class script(object):
-    START_TXT = """Hi {}, I am MCF Filter Pro Bot.
-    Powered By @MovieClubFamily"""
+    START_TXT = """Hi {}, I'm Sinhala Subtitle bot
+
+ඔබට අවශ්‍ය ඕනෑම චිත්‍රපටයක සිංහල උපසිරැසි මෙම Bot තුළින් ලබාගත හැකිය.
+
+පහළින් තිබෙන ''සොයන්න'' Button එක Click කර ඔබට අවශ්‍ය චිත්‍රපටයෙහි නම Type කරන්න.
+
+නැතිනම් අවශ්‍ය චිත්‍රපටයෙහි හෝ කතාමාලාවෙ නම Bot එකට පණිවිඩයක් ආකාරයට එවන්න.
+
+එමෙන්ම මෙම Bot භාවිතා කිරීම සඳහා ඔබ අපගේ පහත චැනලයට Join වී සිටිය යුතුවේ. 
+
+Powered By : @MovieClubFamily"""
     HELP_TXT = """Hey {}
 Here Is The Help For My Commands."""
     ABOUT_TXT = """✯ My Name: {}
 ✯ Creator: <a href=https://t.me/IamBlackEmpire>IamBlackEmpire</a>
 ✯ Library: Pyrogram
 ✯ Language: Python 3"""
-    SOURCE_TXT = """<b>NOTE:</b>
+    SOURCE_TXT = """<b>Note:</b>
 - MCF Filter Pro is a Closed source project. 
 
-<b>DEVS:</b>
+<b>Devs:</b>
 - <a href=https://t.me/IamBlackEmpire>IamBlackEmpire</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and EvaMaria will respond whenever a keyword is found the message
 
 <b>NOTE:</b>
-1. MCF Pro Filter should have admin privillage.
+1. Sinhala Sub Bot should have admin privillage.
 2. only admins can add filters in a chat.
 3. alert buttons have a limit of 64 characters.
 
@@ -28,19 +37,19 @@ Here Is The Help For My Commands."""
 • /delall - <code>delete the whole filters in a chat (chat owner only)</code>"""
     BUTTON_TXT = """Help: <b>Buttons</b>
 
-- MCF Filter Pro Supports both url and alert inline buttons.
+- Sinhala Sub Bot Supports both url and alert inline buttons.
 
 <b>NOTE:</b>
 1. Telegram will not allows you to send buttons without any content, so content is mandatory.
-2. MCF Filter Pro supports buttons with any telegram media type.
+2. Sinhala Sub Bot supports buttons with any telegram media type.
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/MCF_FilterPro_Bot)</code>
+<code>[Button Text](buttonurl:https://t.me/Sinhala_Sub_Bot)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
-    AUTOFILTER_TXT = """Help: <b>MCF Filter Pro</b>
+    AUTOFILTER_TXT = """Help: <b>Sinhala Sub Bot</b>
 
 <b>NOTE:</b>
 1. Make me the admin of your channel if it's private.
